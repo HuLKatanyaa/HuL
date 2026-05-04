@@ -1,5 +1,5 @@
 // ========================================
-// TOKO KELONTONG 46 - SCRIPT LENGKAP
+// TOKO Bu Anik - SCRIPT LENGKAP
 // ========================================
 
 // Data produk lengkap
@@ -15,7 +15,7 @@ let products = JSON.parse(localStorage.getItem('products')) || [
     { id: 9, name: 'Kopi Kapal Api 170gr', desc: 'Kopi robusta premium', price: 22000, image: '☕' },
     { id: 10, name: 'Sabun Lifebuoy 90gr (6 pcs)', desc: 'Anti bakteri lengkap', price: 21000, image: '🧼' },
     { id: 11, name: 'Deterjen Attack 800gr', desc: 'Deterjen bubuk wangi', price: 18500, image: '🧺' },
-    { id: 12, name: 'Cabai Merah Segar', desc: 'Cabai merah segar hari ini', price: null, image: '🌶️' }
+    { id: 12, name: 'Cabai Merah Segar', desc: 'Cabai merah segar hari ini', price: 21000, image: '🌶️' }
 ];
 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -24,7 +24,7 @@ const WA_NUMBER = '6285155132160'; // ❌ GANTI INI DENGAN NOMOR ANDA!
 
 // === INIT APP ===
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('🚀 Toko Kelontong 46 Loaded!');
+    console.log('🚀 Toko Bu Anik Loaded!');
     
     renderProducts();
     updateCartCount();
@@ -275,7 +275,7 @@ function handleCheckout() {
     }
     
     // Buat pesan WA
-    let message = `🛒 *PESANAN BARU - TOKO KELONTONG 46*\n\n`;
+    let message = `🛒 *PESANAN BARU - TOKO Bu Anik*\n\n`;
     message += `👤 Nama: ${name}\n`;
     message += `📱 WA: ${phone}\n`;
     message += `📍 Alamat: ${address || 'Ambil langsung'}\n\n`;
