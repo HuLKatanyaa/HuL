@@ -1,6 +1,4 @@
-// ========================================
-// TOKO Bu Anik - SCRIPT LENGKAP
-// ========================================
+// TOKO Bu Anik
 
 // Data produk lengkap
 let products = JSON.parse(localStorage.getItem('products')) || [
